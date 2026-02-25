@@ -1,17 +1,23 @@
-# my_devices
+📱 MyDevices | Ultimate Device Inventory & Sync
+MyDevices is a professional cross-platform application designed to help users track, manage, and back up their electronic assets. Whether you're renting out equipment or managing a personal collection, MyDevices keeps everything organized and synced to the cloud.
 
-Manage all your devices in one place. Add details, upload pictures, update status.
+🚀 Key Features
+Smart Inventory: Add devices with high-res images, categories, and technical specs.
 
-## Getting Started
+Rental Tracking: Manage "Current Rent" status with localized date support (Automatic conversion of Arabic/Eastern numerals to ISO standards).
 
-This project is a starting point for a Flutter application.
+Cloud Backup: One-tap synchronization to a Node.js/MongoDB backend.
 
-A few resources to get you started if this is your first Flutter project:
+Real-time Status: Instant visual cues for "Available" vs "Rented" devices.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Hybrid Architecture: Built with Flutter for a smooth UI and Express/Node.js for a robust API.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+🛠️ Tech Stack
+Frontend: Flutter (Dart) using Dio for networking.
+
+Backend: Node.js & Express.js hosted on Render.
+
+Database: MongoDB Atlas (Cloud).
+
+![App Dashboard](./assets/screenshot.jpeg)
+
