@@ -19,5 +19,4 @@ Backend: Node.js & Express.js hosted on Render.
 
 Database: MongoDB Atlas (Cloud).
 
-![App Dashboard](./assets/screenshot.jpeg)
-
+![App Dashboard](./assets/images/screenshot.jpeg)
