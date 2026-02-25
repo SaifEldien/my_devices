@@ -1,0 +1,74 @@
+name: my_devices
+description: "Manage all your devices in one place. Add details, upload pictures, update status."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 2.23.0+1
+
+environment:
+  sdk: ^3.11.0
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.5+1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.5.4
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+  geocoding: ^2.1.1
+  geolocator: ^10.1.0
+  image_picker: ^1.2.1
+  file_picker: ^10.3.10
+  fluttertoast: ^9.0.0
+  url_launcher: ^6.3.2
+  flutter_local_notifications: ^20.1.0
+  http: ^1.0.0
+  flutter_offline: "^3.0.1"
+  image_cropper: any
+  #cloud_firestore: ^4.3.1
+  #firebase_core: ^2.4.1
+  #firebase_auth: ^4.2.5
+  #firebase_messaging: ^14.7.9
+  easy_localization: ^3.0.5
+  flutter_native_splash: ^2.2.19
+  liquid_swipe: ^3.0.0
+  dio: ^5.9.1
+
+
+flutter_native_splash:
+  android: true
+  color: "#36013F"
+  image: assets/images/icon.png
+  android_gravity: fill_horizontal
+  android_12:
+    android_gravity: fill_horizontal
+    color: "#36013F"
+    image: assets/images/icon.png
+
+    # dart run flutter_native_splash:remove
+    # dart run flutter_native_splash:create
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+     - assets/images/fallbackImage.jpg
+     - assets/images/icon.png
+     - assets/translations/
+  fonts:
+    - family: Ge_ss
+      fonts:
+        - asset: assets/fonts/GE_SS.otf
