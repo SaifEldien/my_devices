@@ -1,7 +1,4 @@
-import 'package:easy_localization/easy_localization.dart';
-import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart';
-import 'package:my_devices/funcs/pref_funcs.dart';
+import  'package:my_devices/core/core.dart';
 
 class ThemeProvider extends ChangeNotifier {
   bool _isDark = false;
@@ -13,7 +10,7 @@ class ThemeProvider extends ChangeNotifier {
       if (fromPref == null) {
         return;
       } else {
-        _isDark = await getPref('isDark');
+        _isDark = fromPref;
       }
     } else {
       _isDark = !_isDark;
