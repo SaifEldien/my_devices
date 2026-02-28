@@ -15,7 +15,7 @@ Hybrid Architecture: Built with Flutter for a smooth UI and Express/Node.js for 
 🛠️ Tech Stack
 Frontend: Flutter (Dart) using Dio for networking.
 
-Backend: Node.js & Express.js hosted on Render.
+Backend: Node.js & Express.js hosted on Vercel.
 
 Database: MongoDB Atlas (Cloud).
 
